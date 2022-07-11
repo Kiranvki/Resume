@@ -37,18 +37,18 @@
                         <div class="navbar-collapse collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav nav-tabs" id="nav-tab">
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link active me-5" aria-current="page" id="nav-home-tab"
+                                    <a class="nav-link active me-md-5 me-sm-0" aria-current="page" id="nav-home-tab"
                                         data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab"
                                         aria-controls="nav-home" aria-selected="true"><span class="lnr lnr-user"></span>
                                         About Me</a>
                                 </li>
-                                <li class="nav-item me-5" role="presentation">
+                                <li class="nav-item me-md-5 me-sm-0" role="presentation">
                                     <a class="nav-link" id="nav-resume-tab" data-bs-toggle="tab"
                                         data-bs-target="#nav-resume" type="button" role="tab" aria-controls="nav-resume"
                                         aria-selected="false"><span class="lnr lnr-file-add"></span>
                                         Resume</a>
                                 </li>
-                                <li class="nav-item me-5" role="presentation">
+                                <li class="nav-item me-md-5 me-sm-0" role="presentation">
                                     <a class="nav-link" id="nav-Portfolio-tab" data-bs-toggle="tab"
                                         data-bs-target="#nav-Portfolio" type="button" role="tab"
                                         aria-controls="nav-Portfolio" aria-selected="false"><span
@@ -685,14 +685,16 @@
     }
 
     AOS.init();
-    
-    var sideBar=document.getElementById('navbarSupportedContent');
+
+var sideBar=document.getElementById('navbarSupportedContent');
 
 document.onclick=function(e){
     if(e.target.id !=="navbarSupportedContent" ){
         sideBar.classList.remove('show');
     }
 }
+
+
 </script>
 
 <script>
