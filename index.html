@@ -685,6 +685,14 @@
     }
 
     AOS.init();
+    
+    var sideBar=document.getElementById('navbarSupportedContent');
+
+document.onclick=function(e){
+    if(e.target.id !=="navbarSupportedContent" ){
+        sideBar.classList.remove('show');
+    }
+}
 </script>
 
 <script>
