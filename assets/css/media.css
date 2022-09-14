@@ -1,0 +1,210 @@
+@media (max-width:320px) {
+    .page-container {
+        margin: 20px;
+        background: #fff;
+        border-radius: 40px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+    div .container-fluid {
+        padding: 10px !important;
+    }
+    .navbar-brand {
+        font-size: 14px !important;
+        font-weight: bold;
+    }
+    
+    .home-text>h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 48px;
+    }
+
+    .home-text>h4 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .v-align>div>img {
+        text-align: center;
+    }
+
+    .nav-tabs {
+        display: flex;
+        margin-top: 20px;
+        text-align: center ;
+        flex-direction: column;
+    }
+    .nav-item{
+        display: inline-block;
+        width: 100%;
+    }
+   
+
+    .home-button {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .btn-primary {
+        border-radius: 20px;
+        padding: 5px 5px;
+        color: #000;
+        background: #fff;
+        font-weight: bold;
+        border: 2px solid rgb(0, 123, 234);
+        text-align: center;
+        margin: 0%;
+    }
+
+    .contact {
+        margin-top: 10px;
+    }
+
+
+    .footer-social {
+        text-align: center;
+    }
+
+    .footer-copyrights {
+        text-align: center;
+        margin: auto;
+    }
+
+    /* //About me end// */
+    .certification {
+        margin: 3px 0px 20px 40px;
+        
+    }
+
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .page-container {
+        margin: 20px;
+        background: #fff;
+        border-radius: 40px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+    div .container-fluid {
+        padding: 10px !important;
+    }
+
+    .navbar-brand {
+        font-size: 14px !important;
+        font-weight: bold;
+    }
+
+    .home-text>h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 48px;
+    }
+
+    .home-text>h4 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .v-align>div>img {
+        text-align: center;
+    }
+
+    .nav-tabs {
+        margin-top: 20px;
+        text-align: center !important;  
+    }
+      
+    .home-button {
+        text-align: center;
+        margin: 20px;
+    }
+  
+   
+    .btn-primary {
+        border-radius: 20px;
+        padding: 5px 5px;
+        color: #000;
+        background: #fff;
+        font-weight: bold;
+        border: 2px solid rgb(0, 123, 234);
+        text-align: center;
+        margin: 0%;
+    }
+
+    .contact {
+        margin-top: 10px;
+    }
+
+
+    .footer-social {
+        text-align: center;
+    }
+
+    .footer-copyrights {
+        text-align: center;
+        margin: auto;
+    }
+
+    /* //About me end// */
+    .certification {
+        margin: 3px 0px 20px 40px;
+        
+    }
+    .page-start{
+        text-align: center !important;
+
+    }
+    .m-6{
+        text-align: center;
+    }
+
+
+
+}
+
+
+/* medium */
+@media (min-width:480px) and (max-width:768px) {
+    .nav-tabs {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .footer-social {
+        text-align: center;
+    }
+
+    .footer-copyrights {
+        text-align: center;
+        margin: auto;
+    }
+    .certification {
+        margin: 3px 0px 20px 40px;
+        
+    }
+    
+}
+@media (min-width:768px) and (max-width:989px) {
+    .nav-tabs {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .footer-social {
+        text-align: center;
+    }
+
+    .footer-copyrights {
+        text-align: center;
+        margin: auto;
+    }
+    .certification {
+        margin: 3px 0px 20px 40px;
+        
+    }
+    .contact{
+        margin-right: 50px;
+    }
+}
+
